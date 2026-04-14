@@ -137,4 +137,3 @@ Check network access to these CDN domains:
 ## Folder contents
 
 - `Intune-Dashboard.ps1` — Current dashboard script
-- `Archive/` — Previous script versions
