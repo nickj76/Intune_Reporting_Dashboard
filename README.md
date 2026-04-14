@@ -92,10 +92,17 @@ At minimum, use this Microsoft Graph scope:
 
 ## Changelog
 
-- 3.3 (14-04-2026): Added Windows Update Status page (Feature Update and Quality Update compliance with charts and exportable tables). Added OS version breakdown charts for Linux Devices (Ubuntu, Debian, Fedora, RHEL, Other). Added inactivity period breakdown charts on the Inactive Devices page (30–60, 60–90, 90+ days). Added Platform Overview cards to the All Devices page. Moved Windows Updates under the Security nav section. Added Windows Update cards to the Overview dashboard.
+- 3.3 (14-04-2026): 
+  - Added Windows Update Status page (Feature Update and Quality Update compliance with charts and exportable tables).
+  - Added OS version breakdown charts for Linux Devices (Ubuntu, Debian, Fedora, RHEL, Other). Added inactivity period breakdown charts on the Inactive Devices page (30–60, 60–90, 90+ days). 
+  - Added Platform Overview cards to the All Devices page. Moved Windows Updates under the Security nav section. Added Windows Update cards to the Overview dashboard.
+
 - 3.2 (14-04-2026): Added OS version breakdown cards and charts for Windows Devices (Windows 10, 11 23H2, 24H2, 25H2) and Android Devices (Android 10–16), with per-version CSV export.
+
 - 3.1 (13-04-2026): Added JSON export option, improved export button visibility, fixed Linux count visibility in overview cards, added Windows and Android overview counts, and added per-column search inputs with DataTables updates.
+
 - 3.0 (13-04-2026): Complete rewrite with modern dashboard UI, performance improvements, expanded device insights, interactive filtering/export, and updated Graph usage.
+
 - 2.4 (13-04-2026): Added Unicode emoji icons, included macOS count, added Serial Number in all tables, reverted Defender logic, suppressed Graph welcome output, and added All Devices section.
 
 ## Troubleshooting
