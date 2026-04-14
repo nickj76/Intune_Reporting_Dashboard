@@ -62,7 +62,7 @@ At minimum, use this Microsoft Graph scope:
 3. Run the script:
 
    ```powershell
-   .\Intune-Dashboard-V3.3.ps1
+   .\Intune-Dashboard.ps1
    ```
 
 4. The report is written to:
@@ -136,5 +136,5 @@ Check network access to these CDN domains:
 
 ## Folder contents
 
-- `Intune-Dashboard-V3.3.ps1` — Current dashboard script
+- `Intune-Dashboard.ps1` — Current dashboard script
 - `Archive/` — Previous script versions
