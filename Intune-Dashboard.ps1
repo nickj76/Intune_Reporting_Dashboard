@@ -393,9 +393,9 @@ $html = @"
       <div class="card-section-title">Inactivity Breakdown</div>
       <div class="cards">
         <div class="card red"><div class="icon">⏳</div><div class="num">$($InactiveDevices.Count)</div><div class="label">Total Inactive</div></div>
-        <div class="card yellow"><div class="num">$($Inactive30_60.Count)</div><div class="label">30–60 Days</div></div>
-        <div class="card orange"><div class="num">$($Inactive60_90.Count)</div><div class="label">60–90 Days</div></div>
-        <div class="card red"><div class="num">$($Inactive90Plus.Count)</div><div class="label">90+ Days</div></div>
+        <div class="card yellow"><div class="num">$($Inactive30_60.Count)</div><div class="label">30–60 Days</div><button class="export-btn" onclick="exportVersionCSV('inactive30_60')">⬇ Export</button></div>
+        <div class="card orange"><div class="num">$($Inactive60_90.Count)</div><div class="label">60–90 Days</div><button class="export-btn" onclick="exportVersionCSV('inactive60_90')">⬇ Export</button></div>
+        <div class="card red"><div class="num">$($Inactive90Plus.Count)</div><div class="label">90+ Days</div><button class="export-btn" onclick="exportVersionCSV('inactive90plus')">⬇ Export</button></div>
       </div>
     </div>
     <div class="win-charts">
@@ -562,7 +562,10 @@ const versionData = {
   linuxdebian: $jsonLinuxDebian,
   linuxfedora: $jsonLinuxFedora,
   linuxrhel:   $jsonLinuxRHEL,
-  linuxother:  $jsonLinuxOther
+  linuxother:  $jsonLinuxOther,
+  inactive30_60:  $jsonInactive30,
+  inactive60_90:  $jsonInactive60,
+  inactive90plus: $jsonInactive90
 };
 const versionNames = {
   win10:      'Windows10',
@@ -580,7 +583,10 @@ const versionNames = {
   linuxdebian: 'Linux-Debian',
   linuxfedora: 'Linux-Fedora',
   linuxrhel:   'Linux-RHEL',
-  linuxother:  'Linux-Other'
+  linuxother:   'Linux-Other',
+  inactive30_60:  'Inactive-30-60-Days',
+  inactive60_90:  'Inactive-60-90-Days',
+  inactive90plus: 'Inactive-90Plus-Days'
 };
 
 const tableMap = {
