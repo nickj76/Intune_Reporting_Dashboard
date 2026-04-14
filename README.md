@@ -1,4 +1,4 @@
-# Intune Dashboard (PowerShell + Microsoft Graph)
+# Intune Reporting Dashboard (PowerShell + Microsoft Graph)
 
 A PowerShell dashboard script that pulls Intune managed device data from Microsoft Graph and renders a modern, interactive HTML report.
 
