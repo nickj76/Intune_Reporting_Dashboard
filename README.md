@@ -71,9 +71,15 @@ At minimum, use this Microsoft Graph scope:
 
 5. The script opens the HTML report automatically.
 
-## Screenshot
+## Screenshots
 
-![alt text](image.png)
+![Overview Dashboard](image.png)
+
+![Windows Devices](image-1.png)
+
+![Android Devices](image-2.png)
+
+![Inactive Devices](image-3.png)
 
 ## Data behavior notes
 
