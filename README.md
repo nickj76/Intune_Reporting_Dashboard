@@ -71,6 +71,10 @@ At minimum, use this Microsoft Graph scope:
 
 5. The script opens the HTML report automatically.
 
+## Screenshot
+
+![alt text](image.png)
+
 ## Data behavior notes
 
 - Corporate-focused reporting is built from devices where `managedDeviceOwnerType` is `company`.
